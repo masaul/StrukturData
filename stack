@@ -1,0 +1,23 @@
+Struktur linear memiliki 2 ujung. bentuknya juga bermacam2 ada:
+1. top-bottom atau atas bawah
+2. left-right atau kanan kiri
+3. front rear atau depan belakang
+
+==== konsep stack ====
+ * seperti halnya menumpuk sebuah buku. jika ada data yang dimasukkan maka akan diletakkan dipaling atas. dan jika ingin menghapus data maka yang dihapus yang bagian atas sendiri.
+ * bagian paling atas disebut dengan top
+ 
+ ==== operasi stack ====
+ stack() = untuk menginisialisasi stack yang kosong.
+ pop() = untuk menghapus data.
+ push(data) = untuk memasukkan data. jika ada variale maka sebelum data variablenya dimasukkan menjadi push(variableName, data)
+ peek() = informasi data yang terletak pada posisi top
+ isEmpty() = untuk mengecek apakah bilangan benar2 kosong.
+ size() = memuat informasi jumlah data yang ada dalam stack.
+ 
+ 
+ ==== Bilangan infix dan postfix ====
+ contoh = (1+2) * (1+8) => bilangan infix = bilangan yang operatornya ada ditengah
+          12+18+*       => Bilangan postfix = bilangan yang operatornya ada di akhir.
+
+refrensi : http://trunojoyopython.com/strukturdata/
