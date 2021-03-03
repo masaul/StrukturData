@@ -21,3 +21,9 @@ Struktur linear memiliki 2 ujung. bentuknya juga bermacam2 ada:
           12+18+*       => Bilangan postfix = bilangan yang operatornya ada di akhir.
 
 refrensi : http://trunojoyopython.com/strukturdata/
+
+
+==== Problem Solving / Latihan ====
+1. Buat function untuk ’reverse word’ dengan menggunakan konsep stacks, misalkan kata ’stacks’ menjadi ’skcats
+2. Buat function untuk mengkonversi bilangan desimal menjadi bilangan biner dengan menggunakan konsep stack
+3. Buat function untuk mengkonversikan ekspressi aritmatik infix menjadi ekspressi aritmatik postfix
