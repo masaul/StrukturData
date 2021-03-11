@@ -33,3 +33,30 @@
         return (d==[])
     def size(d):
         return (len(d))
+        
+        
+==== Contoh ====
+
+  deq=createDeque()
+  addFront(deq,'struktur')
+  addFront(deq,'data')
+    output : ['data', 'struktur']
+
+  addRear(deq,'2018')
+  addRear(deq,'2019')
+    output: ['data', 'struktur', '2018', '2019']
+
+  addRear(deq,'100')
+    output: ['data', 'struktur', '2018', '2019', '100']
+
+  data=removeFront(deq)
+  print(data)
+  print(deq)
+    output: data
+            ['struktur', '2018', '2019', '100']
+
+  data=removeRear(deq)
+  print(data)
+  print(deq)
+    output : 100
+             ['struktur', '2018', '2019']
