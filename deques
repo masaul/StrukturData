@@ -1,0 +1,35 @@
+++ deques memiliki fungsi seperti stack maupun queue
+++ index pertama list pada deque adalah posisi front, dan index yang terakhir adalah rear
+++ didalam fungsi deque. addFront(0, data). jadi yang ditambah adalah data yang di depan atau indeks ke 0
+++ jika addRear(). maka menggunakan method .append. karna nanti datanya akan berada diposisi belakang
+++ begitu juga dengan removenya.
+
+==== operasi deques ====
+  deque()           => inisialisasi data kosong
+  addFront(data)    => penambahan data diujung front
+  addRear(data)     => penambahan data diujung belakang
+  removeFront()     => penghapusan data diujung depan
+  removeRear()      => penghapusan data diujung belakang
+  isEmpty()         => untuk mengecek apakah bilangan benar2 kosong.
+  size()            => memuat informasi jumlah data yang ada dalam stack.
+  
+==== COde fungsi deque ====
+    def createDeque():
+        d=[]
+        return (d)
+    def addFront(d,data):
+        d.insert(0,data)
+        1return(d)
+    def addRear(d,data):
+        d.append(data)
+        return(d)
+    def removeRear(d):
+        data=d.pop()
+        return(data)
+    def removeFront(d):
+        data=d.pop(0)
+        return(data)
+    def isEmpty(d):
+        return (d==[])
+    def size(d):
+        return (len(d))
